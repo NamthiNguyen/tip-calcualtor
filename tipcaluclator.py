@@ -20,7 +20,8 @@ desire_tip = float(input("What percentage tip would you like to give? 10, 12 or 
 cost_per_person = (customer_bill) / (amt_of_people) 
 
 #Calculations for getting total bill with tac
-tip_per_person = (round(cost_per_person * desire_tip /100, 2 ))
+tip_CALC = (round(cost_per_person * desire_tip /100, 2 ))
+cost_per_person = "{:.2f}".format(tip_CALC)
 total_tip = (round(customer_bill * desire_tip /100, 2 ))
 
 #Calculations for getting total bill per person to pay
