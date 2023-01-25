@@ -5,7 +5,7 @@ description: Designing a tip calculator with more modification, such as printing
 """
 
 #Welcome message
-print("**** Welcome to Nam's tip calucaltor ****")
+print("**** Welcome to Nam's tip Calculator ****")
 
 # Ask user for their total bill and allow floating number and store it into a variable call customerbill
 customer_bill = float(input("What is the total bill? "))
