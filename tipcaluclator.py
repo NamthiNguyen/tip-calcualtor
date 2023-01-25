@@ -22,6 +22,7 @@ cost_per_person = (customer_bill) / (amt_of_people)
 #Calculations for getting total bill with tac
 tip_per_person = (round(cost_per_person * desire_tip /100, 2 ))
 total_tip = (round(customer_bill * desire_tip /100, 2 ))
+
 #Calculations for getting total bill per person to pay
 total_bill_per_person = (tip_per_person + cost_per_person)
 
